@@ -1,0 +1,8 @@
+	#game_panel{margin-left:100px;margin-top:50px;}
+	#game_canvas{border:solid 2px black;float:left}
+	#sub_info{width:130px;height:450px;float:left;margin-left:40px;}
+	#sub_info p{padding-left:20px;}
+	#control_panel{margin-top:15px;margin-left:100px;}
+	#speed_select{margin-left:20px;}
+	.clear{clear:both}
+	

@@ -1,0 +1,44 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <title>洁宝宝大战毛屎壳郎</title>
+        <link rel="stylesheet" href="style.css">
+        </link>
+        <script style="text/javascript" src="jquery-1.4.2.min.js">
+        </script>
+        <script style="text/javascript" src="Bomb.js">
+        </script>
+        <script style="text/javascript" src="EventManager.js">
+        </script>
+        <script style="text/javascript" src="Tank.js">
+        </script>
+        <script style="text/javascript" src="Enemy.js">
+        </script>
+        <script style="text/javascript" src="Context.js">
+        </script>
+        <script style="text/javascript" src="tank_bomb.js">
+        </script>
+    </head>
+    <body>
+        <div id="game_panel">
+            <canvas id="game_canvas" width="550" height="550">
+            </canvas>
+            <div id="sub_info">
+                <h2>洁宝宝亲了小苏苏<span id="kiss_count">0</span>下</h2>
+                <h2>洁宝宝吃了<span id="shit_count">0</span>坨屎</h2>
+                <h2>时间：<span id="time">0</span>秒</h2>
+				<div>
+					操作说明：上下左右移动洁宝宝，a键逆时针转动炮柄，d键顺时针转动炮柄。空格键发射子弹。
+				</div>
+            </div>
+            <div class="clear">
+            </div>
+            <div id="control_panel">
+                <button id="control_button">
+                    暂停
+                </button>
+            </div>
+        </div>
+    </body>
+</html>
